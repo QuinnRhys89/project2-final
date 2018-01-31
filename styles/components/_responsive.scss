@@ -1,0 +1,232 @@
+.hamburger{
+    height: 40px;
+    width: 30px;
+    position: relative;
+    display: none;
+}
+
+.hamburger.close .line1{
+    transform: rotate(45deg);
+    top: 45%;
+}
+
+.hamburger.close .line2, 
+.hamburger.close .line3{
+    transform: rotate(-45deg);
+    top: 45%;
+}
+
+.line{
+    background:white;
+    height: 2px;
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    transition: all cubic-bezier(0.36, 0.21, 0.63, 1.53) 0.27s;
+}
+
+.line1{
+    top: 19%;
+}
+
+.line2{
+    top: 49%;
+}
+
+.line3{
+    top: 79%;
+}
+
+
+// Gallery Items - Responsive
+
+@media (max-width: 1288px) {
+    .gallery-item{
+    flex-basis: calc(50% - 20px);
+    }
+}
+
+// Pricing Section
+
+@media (max-width: 1246px){
+    .trial-container .trial{
+        margin-bottom: 100px;
+    }
+}
+
+
+@media (max-width: 1022px){
+
+    // Feature Section
+
+    .feature-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features{
+        margin-bottom: 30px;
+    }
+
+    .features p{
+        max-width: 100%;
+    }
+
+    .circle-lg{
+        height: 170px;
+        width: 170px;
+        top: 10px;
+        left: -60px;    
+    }
+
+    // News section
+
+    article{
+        flex-direction: column
+        }
+        .article__photo{
+           max-height: 500px;
+
+        }
+        .article__text{
+            width: 100%;
+            padding: 0;
+        }
+}
+
+// Portrait tablet and small desktops
+@media (max-width: 940px){
+   
+   
+}
+
+// Pricing Section
+
+@media (max-width: 822px){
+     .trial-container{
+        flex-direction: column;
+        .trial{
+            min-width: 80%;
+        }
+    }
+}
+
+
+@media (max-width: 868px){
+    .footer-column{
+    max-width: 50%;
+    width: 50%;
+    margin-top: 8%;
+    }
+
+    .courses-list,
+    .newsletters{
+        text-align: left;
+    }
+}
+
+// Landscape phone to portrait tablet
+@media (max-width: 768px){
+
+    .logo-bar .wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .genius-logo{
+        order: 1;
+        padding-left: 50px;
+    }
+
+    .genius-logo{
+        order: 1;
+    }
+
+    .contact{
+        order: 2;
+    }
+
+    .user-controls{
+        order: 3;
+    }
+
+    .show-menu{
+        display: none;
+    }
+
+    .main-nav{
+        position: fixed;
+        z-index: 200000;
+    }
+
+    .logo-bar{
+        position: fixed;
+        width: 100%;
+        z-index: 200000;
+    }
+    
+    .main-menu{
+        padding: 20px 0;
+        flex-direction: column;
+        position: fixed;
+        top: 130px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        font-size: 24px;
+        li{
+            padding: 15px;
+            a{
+                color: whitesmoke;
+                font-weight: 300;
+                letter-spacing: 1.4;
+            }
+
+        }
+    }  
+
+
+    .hero-section{
+        padding-top: 100px;
+    }
+    
+    .hamburger{
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .footer-column{
+    max-width: 100%;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    text-align: center;
+    }
+
+    .footer-column h4,
+    .footer-column.genius{
+        padding-top: 8%;
+        margin-bottom: 10px;
+
+    }
+}
+
+// Gallery Items
+@media (max-width: 630px) {
+    .gallery-item{
+        flex-basis: 100%;
+    }
+}
+
+
+// Mobile - Landscape phones and down
+@media (max-width: 480px){
+    .logo-bar .wrapper{
+        justify-content: flex-start;
+    }
+
+
+}
+
+

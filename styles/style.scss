@@ -1,0 +1,100 @@
+$primarybackground: #f0f2f7;
+$maincolor: #222222;
+$secondarycolor: #444;
+$highlight: #85bb42;
+$basefont:'Raleway', sans-serif;
+
+
+html{
+    font-size: 96.5%;
+}
+
+body{
+    font-family: $basefont;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: $maincolor;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+// Subtitle Plate
+
+.subtitle-plate{
+    text-align: center;
+    text-transform: uppercase;
+    h3{
+        font-weight: 400;
+        font-size: 17px;
+    }
+    h2{
+        margin: 20px 0;
+        font-size: 35px;
+    }
+}
+
+// General Button Styles
+
+button{
+   border: 0;
+   background: $highlight;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   padding: 15px 30px;
+   color:#fff;
+   font-weight: 500; 
+}
+
+@import "components/setup";
+@import "components/header";
+@import "components/main";
+@import "components/footer";
+@import "components/responsive";
+
+
+// @mixin buttonStyle($font, $color) {
+//     font-size: $font;
+//     color: $highlight;
+//     font-weight: bold;
+//     background: none;
+//     border: none;
+// }
+
+
+// button {
+//     @include buttonStyle(14, purple);
+// }
+
+// Make the partial
+// Save the file
+// Delete the css
+// Imoprt the partial
+// Save style/scss
+

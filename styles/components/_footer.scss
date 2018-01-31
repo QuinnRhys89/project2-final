@@ -1,0 +1,139 @@
+// ****** FOOTER ****** 
+
+footer{
+    padding-top: 70px;
+    color: white;
+    background: black;
+}
+
+.courses-list a{
+    color: white;
+}
+
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column{
+    max-width: 25%;
+    font-size: 13px;
+    line-height: 2;
+    h4{
+    padding: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    }
+}
+
+
+.footer-bottom{
+    margin-top: 10%;
+    padding-bottom: 20px;
+}
+
+.footer-bottom nav{
+    align-items: center;
+}
+
+.footer-bottom nav li{
+    text-transform: uppercase;
+    
+}
+
+.footer-bottom nav,
+.footer-bottom nav ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.footer-bottom ul li{
+    display: inline;
+    padding: 0px 10px;
+}
+
+.footer-bottom li a{
+    color: white;
+}
+
+
+.genius span{
+    color:$highlight;
+}
+
+// Font Awesome Before Icons
+
+.genius ul li:before{
+    content:"\f00c";
+    font-family: FontAwesome;
+    display:inline-block;
+    margin-right: 10px;
+    color: $highlight;
+}
+
+.hawkins::before{
+    content:"\f041";
+    font-family: FontAwesome;
+    margin-right: 20px;
+    color: $highlight;
+}
+
+.phone::before{
+    content:"\f095";
+    font-family: FontAwesome;
+    margin-right: 20px;
+    color: $highlight;
+}
+
+.phone::before{
+    content:"\f095";
+    font-family: FontAwesome;
+    margin-right: 20px;
+    color: $highlight;
+}
+
+.mail::before{
+    content:"\f0e0";
+    font-family: FontAwesome;
+    margin-right: 20px;
+    color: $highlight;
+}
+
+// Form Input
+
+form{
+    display: flexbox;
+    input[type=text]{
+        border:0;
+        padding: 10px 20px;
+        border-radius: 5px 5px;
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}
+
+.newsletters .social-links{
+    font-size: 30px;
+}
+
+.fa-facebook-official{
+    color: #3b5999;
+}
+
+.fa-twitter-square{
+    color: #00abf1;
+}
+
+.fa-google-plus-square{
+    color: #e12f2f;    
+}
+
+.fa-instagram{
+    color: #865045;
+}
