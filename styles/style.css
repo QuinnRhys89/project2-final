@@ -991,7 +991,7 @@ form {
     top: 30px;
     left: 30px; }
   footer {
-    padding-top: 0; }
+    padding-top: 20px; }
   .footer-column {
     max-width: 100%;
     margin: 10px 0;
@@ -1050,4 +1050,8 @@ form {
     -ms-flex-direction: column;
     flex-direction: column; }
   .copyright {
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .photo-gallery div {
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto; } }

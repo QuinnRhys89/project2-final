@@ -234,7 +234,7 @@
     }
 
     footer{
-        padding-top: 0;
+        padding-top: 20px;
     }
 
     .footer-column{
@@ -307,6 +307,10 @@
 
     .copyright{
         margin-top: 20px;
+    }
+
+    .photo-gallery div{
+        flex: auto;
     }
 }
 
