@@ -84,10 +84,11 @@
     article{
         flex-direction: column
         }
+
         .article__photo{
            max-height: 500px;
-
         }
+
         .article__text{
             width: 100%;
             padding: 0;
@@ -114,9 +115,9 @@
 
 @media (max-width: 868px){
     .footer-column{
-    max-width: 50%;
-    width: 50%;
-    margin-top: 8%;
+        max-width: 50%;
+        width: 50%;
+        margin-top: 8%;
     }
 
     .courses-list,
@@ -127,6 +128,17 @@
 
 // Landscape phone to portrait tablet
 @media (max-width: 768px){
+
+    .pricing{
+        margin: 0;
+    }
+    
+    .pricing .wrapper{
+        width: 75%;
+        .trial{
+            margin-top: 40px;
+        }
+    }
 
     .logo-bar .wrapper{
         flex-direction: column;
@@ -173,7 +185,7 @@
         top: 130px;
         width: 100%;
         background: rgba(0, 0, 0, 0.8);
-        font-size: 24px;
+        font-size: 2.4rem;
         li{
             padding: 15px;
             a{
@@ -197,11 +209,22 @@
         left: 30px;
     }
 
+    footer{
+        padding-top: 0;
+    }
+
     .footer-column{
-    max-width: 100%;
-    width: 100%;
-    border-top: 1px solid lightgrey;
-    text-align: center;
+        max-width: 100%;
+        width: 100%;
+        border-top: 1px solid lightgrey; 
+        display: flex;  
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: column;   
+    }
+
+    .courses-list{
+        text-align: center;
     }
 
     .footer-column h4,
@@ -209,6 +232,16 @@
         padding-top: 8%;
         margin-bottom: 10px;
 
+    }
+
+    .newsletters{
+        border-bottom: 1px solid lightgrey; 
+        padding-bottom: 40px;
+    }
+
+    .footer-bottom{
+        margin-top: 20px;
+        padding-bottom: 10px;
     }
 }
 

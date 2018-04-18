@@ -3,7 +3,7 @@
 footer{
     padding-top: 70px;
     color: white;
-    background: black;
+    background: $maincolor;
 }
 
 .courses-list a{
@@ -18,7 +18,8 @@ footer{
 
 .footer-column{
     max-width: 25%;
-    font-size: 13px;
+    margin: 0 30px;
+    font-size: 1.3rem;
     line-height: 2;
     h4{
     padding: 0;
@@ -48,7 +49,8 @@ footer{
 .footer-bottom nav ul{
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
 }
 
 .footer-bottom ul li{
@@ -61,8 +63,9 @@ footer{
 }
 
 
-.genius span{
+.copyright span{
     color:$highlight;
+    margin: 0 0 0 5px;
 }
 
 // Font Awesome Before Icons
@@ -75,11 +78,25 @@ footer{
     color: $highlight;
 }
 
+.contact-us{
+    text-align: left;
+}
+
+.hawkins-rel{
+    position: relative;
+}
+
+.hawkins > li{
+    padding-left: 30px;
+}
+
 .hawkins::before{
     content:"\f041";
     font-family: FontAwesome;
     margin-right: 20px;
     color: $highlight;
+    position: absolute;
+    top: 0;
 }
 
 .phone::before{
@@ -106,20 +123,31 @@ footer{
 // Form Input
 
 form{
-    display: flexbox;
     input[type=text]{
         border:0;
         padding: 10px 20px;
         border-radius: 5px 5px;
+        height: 40px;
     }
     button{
         padding: 10px 20px;
-        font-size: 18px;
+        font-size: 1.8rem;
+        border-radius: 5px 5px 5px 5px;
+        margin-left: 10px;
+        height: 40px;
+        position: relative;
+        top: 2px;
+        .fa-paper-plane{
+            font-size: 1.2rem;
+        }
     }
 }
 
 .newsletters .social-links{
-    font-size: 30px;
+    font-size: 2.5rem;
+    a{
+        margin: 0 5px;
+    }
 }
 
 .fa-facebook-official{
