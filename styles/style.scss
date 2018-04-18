@@ -74,6 +74,11 @@ button{
    padding: 15px 30px;
    color:#fff;
    font-weight: 500; 
+   transition: all .5s;
+}
+
+button:hover{
+    transform: scale(1.1);
 }
 
 @import "components/setup";

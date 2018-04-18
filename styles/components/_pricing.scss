@@ -2,6 +2,10 @@
     margin-bottom: 111px;
 }
 
+.billing{
+    font-size: 1.5rem;
+}
+
 
 .trial-container{
     display: flex;
@@ -26,9 +30,11 @@
 }
 
 .trial{
+    transition: all ease-in .4s;
     .choose-plan{
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 700;
+        font-size: 1.5rem;
     }
     h4{
         text-transform: uppercase;
@@ -58,6 +64,7 @@
     top: -70px;
     left: 50%;
     transform: translate(-50%, 0);
+    transition: all ease-in .4s;
 }
 
 .sale{

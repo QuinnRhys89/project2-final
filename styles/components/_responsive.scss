@@ -59,8 +59,6 @@
     .trial-container .trial{
         margin-bottom: 100px;
     }
-
-
 }
 
 
@@ -74,12 +72,16 @@
     }
 
     .features{
-        margin-bottom: 30px;
+        margin:0 30px 0 80px;
+        padding-right: 0;
+        .icon{
+            left: -40px;
+            width: 25px;
+        }
     }
 
-    .features p{
-        max-width: 100%;
-    }
+
+
 
     .circle-lg{
         height: 170px;
@@ -107,7 +109,9 @@
 
 // Portrait tablet and small desktops
 @media (max-width: 940px){
-    
+    h1{
+        font-size: 8vw;
+    }
    
    
 }
@@ -143,8 +147,6 @@
 
 // Landscape phone to portrait tablet
 @media (max-width: 768px){
-
-  
 
     .pricing{
         margin: 0;
@@ -209,10 +211,15 @@
                 color: whitesmoke;
                 font-weight: 300;
                 letter-spacing: 1.4;
+                transition: all ease-in .5s;
             }
 
         }
-    }  
+    } 
+    
+    .main-menu li a:hover{
+        color: $highlight;
+    }
 
 
     .hero-section{
@@ -262,7 +269,16 @@
     }
 }
 
-// Gallery Items
+@media (max-width: 641px){
+    .course-nav ul{
+        text-align: center;
+    }
+    .course-nav ul li{
+        width: 30%;
+        margin-bottom: 15px;
+    }
+}
+
 @media (max-width: 630px) {
     .gallery-item{
         flex-basis: 100%;
@@ -276,7 +292,22 @@
         justify-content: flex-start;
     }
 
+    .hero-section{
+        height: 60vh;
+    }
 
+    .hero-plate p{
+        font-size: 1.4rem;
+    }
+
+    .footer-bottom nav{
+        flex-direction: column;
+    }
+
+    .copyright{
+        margin-top: 20px;
+    }
 }
+
 
 

@@ -34,3 +34,11 @@
         margin: 0;
     }
 }
+
+.courses-list a{
+    transition: all ease-out .5s;
+}
+
+.courses-list a:hover{
+    color: $highlight;
+}
