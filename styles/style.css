@@ -994,7 +994,7 @@ form {
     padding-top: 0; }
   .footer-column {
     max-width: 100%;
-    margin: 5% 0;
+    margin: 10px 0;
     width: 100%;
     border-top: 1px solid lightgrey;
     display: -webkit-box;
@@ -1041,7 +1041,7 @@ form {
     -ms-flex-pack: start;
     justify-content: flex-start; }
   .hero-section {
-    height: 60vh; }
+    height: 70vh; }
   .hero-plate p {
     font-size: 1.4rem; }
   .footer-bottom nav {
