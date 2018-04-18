@@ -1,0 +1,45 @@
+.about{
+    background: $primarybackground;
+    padding: 93px 0 120px 0;
+}
+
+
+.feature-container{
+    display: flex;
+    font-size: 1rem;
+    line-height: 1.5;
+    // justify-content: space-between;
+}
+
+.features{
+    padding: 60px 50px 23px 0;
+    margin: 0 40px;
+    width: calc(33.33% - 80px);
+    position: relative;
+    z-index: 1;
+    h4{
+        font-size: 2.5rem;
+        margin: 0;
+    }
+}
+
+.icon{
+    position: absolute;
+    left: -60px;
+    top: 55px;
+}
+
+.circle-lg{
+    width: 210px;
+    height: 210px;
+    background: #fafbfd;
+    border-radius: 50%;
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    left: -90px;
+}
+
+.features{
+    width: 70%;
+}

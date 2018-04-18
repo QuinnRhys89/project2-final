@@ -1,0 +1,96 @@
+.course-gallery{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    margin-bottom: 103px;
+}
+
+.gallery-item{
+    flex-basis: 270px;
+    margin: 10px 10px;
+        img{
+            display: block;
+            width: 100%;
+        }
+}
+
+.caption{
+    border: 1px solid lightgrey;
+    padding: 0;
+    h4{
+        min-height: 45px;
+        padding: 0 15px 0 15px;
+    }
+}
+
+.client-profile{
+    display: flex;
+    padding: 0 15px 20px 15px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.circle{
+    width: 42px;
+    height: 42px;
+    background: #b7b7b7;
+    border-radius: 50%;
+}
+
+.client-name p{
+    padding: 0;
+    margin: 0 10px;
+    color: #222;
+}
+
+// Client Name
+.client-name p:first-child{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $secondarycolor;        
+}
+
+// View Profile
+.client-name p:nth-child(2){
+    color: $highlight;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.caption .comment-links{
+    padding: 0 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.comment-links,
+.comment-data{
+    display: flex;
+    align-items: center;
+    color: $secondarycolor;
+}
+
+.comment-data p,
+.comment-data i{
+    margin: 0 2px;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.comment-links p{
+    font-size: 1.5rem;
+}
+
+.fa-comments,
+.fa-users{
+    color: #b7b7b7;
+}
+
+.comment-data p:first-of-type{
+    margin-right: 10px;
+}
+
+.free{
+    color: $highlight;
+}

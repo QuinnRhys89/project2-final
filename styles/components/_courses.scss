@@ -1,0 +1,36 @@
+// Book Icon
+
+.course__book{
+    display: inline;
+}
+
+.course__book::before, 
+.course__book::after{
+    content: "";
+    border: 1px solid $highlight;
+    width: 25px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.course__book::before{
+    margin-right: 10px;
+}
+
+.course__book::after{
+    margin-left: 10px;
+}
+
+// Course Nav
+
+.course-nav{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 1.6rem;
+    li{
+        display: inline-block;
+        padding: 0 20px;
+        margin: 0;
+    }
+}

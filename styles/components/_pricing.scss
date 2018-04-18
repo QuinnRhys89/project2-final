@@ -1,0 +1,73 @@
+.pricing{
+    margin-bottom: 111px;
+}
+
+
+.trial-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    text-align: center;
+    .trial{
+        height: 594px;
+        flex-basis: 32%;
+        position: relative;
+        background: $primarybackground;
+        padding: 50px 10px;
+        .trial__list{
+            background: white;
+            height: 385px;
+            padding: 20px 0;
+            line-height: 3;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.trial{
+    .choose-plan{
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    h4{
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        margin-bottom: 0;
+    }
+}
+
+.trial:hover .circle-price{
+    background: $highlight;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+    top: -80px;
+}
+
+.trial:hover{
+    background: $highlight;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+
+.circle-price{
+    height: 120px;
+    width: 120px;
+    border: 10px solid white;
+    border-radius: 50%;
+    background: $primarybackground;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.sale{
+    font-size: 3.8rem;
+    font-weight: 700;
+    position: relative;
+    top: -15px;
+    span{
+        font-size: 1.8rem;
+        position: relative;
+        bottom: 16px;
+    }
+}

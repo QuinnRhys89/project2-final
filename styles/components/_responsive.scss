@@ -42,7 +42,14 @@
 
 @media (max-width: 1288px) {
     .gallery-item{
-    flex-basis: calc(50% - 20px);
+        flex-basis: calc(50% - 20px);
+    }
+    .photo-gallery div:nth-child(odd){
+        padding-left: 0;
+    }
+
+    .photo-gallery img{
+        height: 100%;
     }
 }
 
@@ -52,11 +59,13 @@
     .trial-container .trial{
         margin-bottom: 100px;
     }
+
+
 }
 
 
 @media (max-width: 1022px){
-
+   
     // Feature Section
 
     .feature-container{
@@ -87,6 +96,7 @@
 
         .article__photo{
            max-height: 500px;
+           width: 70%;
         }
 
         .article__text{
@@ -97,6 +107,7 @@
 
 // Portrait tablet and small desktops
 @media (max-width: 940px){
+    
    
    
 }
@@ -124,10 +135,16 @@
     .newsletters{
         text-align: left;
     }
+
+    .photo-gallery div:nth-child(even){
+        padding-left: 0;
+    }
 }
 
 // Landscape phone to portrait tablet
 @media (max-width: 768px){
+
+  
 
     .pricing{
         margin: 0;
