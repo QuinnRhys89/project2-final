@@ -77,7 +77,8 @@
     height: 85vh;
     background-image: url("../assets/hero-image-2.png");
     background-position: center;
-    background-size: cover;
+    // background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     text-align: center;
     justify-content: center;

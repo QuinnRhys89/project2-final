@@ -33,6 +33,9 @@ li{
 a{
     text-decoration: none;
     color: $maincolor;
+    &:hover{
+        color: $highlight;
+    }
 }
 
 img{
@@ -77,24 +80,4 @@ button{
 @import "components/main";
 @import "components/footer";
 @import "components/responsive";
-
-
-// @mixin buttonStyle($font, $color) {
-//     font-size: $font;
-//     color: $highlight;
-//     font-weight: bold;
-//     background: none;
-//     border: none;
-// }
-
-
-// button {
-//     @include buttonStyle(14, purple);
-// }
-
-// Make the partial
-// Save the file
-// Delete the css
-// Imoprt the partial
-// Save style/scss
 

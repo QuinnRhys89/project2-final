@@ -21,6 +21,8 @@ li {
 a {
   text-decoration: none;
   color: #222222; }
+  a:hover {
+    color: #85bb42; }
 
 img {
   max-width: 100%; }
@@ -253,7 +255,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   height: 85vh;
   background-image: url("../assets/hero-image-2.png");
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -429,6 +431,8 @@ h1 {
     .photo-gallery div img {
       display: block;
       width: 100%; }
+      .photo-gallery div img:hover {
+        border: 1px solid red; }
 
 .news {
   display: -webkit-box;
@@ -572,7 +576,12 @@ article:hover {
   font-size: 24px;
   margin-bottom: 0; }
 
-.trial:hover .circle-price,
+.trial:hover .circle-price {
+  background: #85bb42;
+  -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+  top: -80px; }
+
 .trial:hover {
   background: #85bb42;
   -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);

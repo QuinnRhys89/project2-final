@@ -150,6 +150,9 @@
         img{
             display: block;
             width: 100%;
+        &:hover{
+            border: 1px solid red;
+        }
         }
     }
 }
@@ -244,7 +247,6 @@ article:hover{
 
 .features{
     padding: 23px 0;
-    // flex-basis: 30%;
     max-width: 263px;
     position: relative;
     z-index: 1;
@@ -312,7 +314,12 @@ article:hover{
     }
 }
 
-.trial:hover .circle-price,
+.trial:hover .circle-price{
+    background: $highlight;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+    top: -80px;
+}
+
 .trial:hover{
     background: $highlight;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
